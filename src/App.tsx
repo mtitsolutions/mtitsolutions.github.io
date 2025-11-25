@@ -24,6 +24,8 @@ function App() {
         <li>{t('home.option5')}</li>
       </ul>
       <h2>{t('home.footer')}<a href="https://www.linkedin.com/in/maria-treier/">https://www.linkedin.com/in/maria-treier</a></h2>
+      <div className="about">{t('home.about1')}</div>
+      <div className="about">{t('home.about2')}</div>
     </>
   )
 }

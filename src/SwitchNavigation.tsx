@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { useTranslation, withTranslation } from 'react-i18next';
 
 import './SwitchNavigation.css';
-import { Russian } from './russian';
+import { English } from './english';
 import { Croatian } from './croatian';
 import type { Language } from './language';
 
-const languages = [new Russian(), new Croatian()];
+const languages = [new English(), new Croatian()];
 
 function SwitchNavigation() {
   const { i18n } = useTranslation();
