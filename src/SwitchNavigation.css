@@ -1,0 +1,30 @@
+.switch-navigation_ul {
+  display: flex;
+  margin-right: 8px;
+  margin-left: auto;
+  padding-inline-start: 0px;
+  height: 6vh;
+}
+
+@media only screen and (min-width: 490px) {
+  .switch-navigation_ul {
+    justify-content: flex-end;
+  }
+}
+
+.switch-navigation_ul>li {
+  list-style-type: none;
+  margin: 8px;
+}
+
+.switch-navigation_ul>li>button {
+  background-color: #fff;
+  border: 0;
+  font-size: 1rem;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #292b2c;
+}
+
+.switch-button_bold {
+  font-weight: bold;
+}
